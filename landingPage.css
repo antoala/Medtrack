@@ -16,3 +16,7 @@ body {
   /* styling */
 /*make a class when you want to style something a certain way and then use it multiple times to keep the same style  */
 }
+#header {
+  color: blue;
+
+}
