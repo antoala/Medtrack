@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>MedTrack:Index</title>
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <!-- nvbar -->
+<head>
+  <meta charset="utf-8">
+  <title>MedTrack:Index</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!-- nvbar -->
     <a class="navbar-brand" href="#">MedTrack</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -30,24 +30,139 @@
     </div>
 
   </nav>
+
+
   <div class="container">
     <!-- card -->
-    <h1 class="text-center">All patients</h1>
-    <div class="card text-center">
-  <div class="card-header">
-    Patient Ward
+    <div class="row">
+      <!-- because the division of the screen is made in a grid of 12, a column of 4 size will put 3 columns on the screen, one next to the other  -->
+      <!-- regardless of screen size (ex col 4)-->
+      <div class="col-sm-12 col-lg-4">
+        <!-- this type of writing above will show it differently depending on the width of the screen - for small screen, one card on screen -->
+        <!-- for large, 3 cards per screen -->
+        <h1 class="text-center">All patients</h1>
+        <div class="card text-center">
+          <div class="card-header">
+            Patient Ward
+          </div>
+          <div class="card-body">
+            <img class="card-img-top"src="https://boygeniusreport.files.wordpress.com/2016/11/puppy-dog.jpg?quality=98&strip=all&w=782" alt="">
+            <h5 class="card-title">Patient name</h5>
+            <p class="card-text">Diagnosis</p>
+          </div>
+          <div class="card-footer text-muted">
+            <small>Admitted date</small>
+            <a href="#" class="btn btn-danger btn-block">View</a>
+            <a href="#" class="btn btn-warning btn-block">Edit</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-lg-4">
+        <h1 class="text-center">All patients</h1>
+        <div class="card text-center">
+          <div class="card-header">
+            Patient Ward
+          </div>
+          <div class="card-body">
+            <img class="card-img-top"src="https://boygeniusreport.files.wordpress.com/2016/11/puppy-dog.jpg?quality=98&strip=all&w=782" alt="">
+            <h5 class="card-title">Patient name</h5>
+            <p class="card-text">Diagnosis</p>
+          </div>
+          <div class="card-footer text-muted">
+            <small>Admitted date</small>
+            <a href="#" class="btn btn-danger btn-block">View</a>
+            <a href="#" class="btn btn-warning btn-block">Edit</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-lg-4">
+        <h1 class="text-center">All patients</h1>
+        <div class="card text-center">
+          <div class="card-header">
+            Patient Ward
+          </div>
+          <div class="card-body">
+            <img class="card-img-top"src="https://boygeniusreport.files.wordpress.com/2016/11/puppy-dog.jpg?quality=98&strip=all&w=782" alt="">
+            <h5 class="card-title">Patient name</h5>
+            <p class="card-text">Diagnosis</p>
+          </div>
+          <div class="card-footer text-muted">
+            <small>Admitted date</small>
+            <a href="#" class="btn btn-danger btn-block">View</a>
+            <a href="#" class="btn btn-warning btn-block">Edit</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- because the division of the screen is made in a grid of 12, a column of 4 size will put 3 columns on the screen, one next to the other  -->
+        <!-- regardless of screen size (ex col 4)-->
+        <div class="col-sm-12 col-lg-4">
+          <!-- this type of writing above will show it differently depending on the width of the screen - for small screen, one card on screen -->
+          <!-- for large, 3 cards per screen -->
+          <h1 class="text-center">All patients</h1>
+          <div class="card text-center">
+            <div class="card-header">
+              Patient Ward
+            </div>
+            <div class="card-body">
+              <img class="card-img-top"src="https://boygeniusreport.files.wordpress.com/2016/11/puppy-dog.jpg?quality=98&strip=all&w=782" alt="">
+              <h5 class="card-title">Patient name</h5>
+              <p class="card-text">Diagnosis</p>
+            </div>
+            <div class="card-footer text-muted">
+              <small>Admitted date</small>
+              <a href="#" class="btn btn-danger btn-block">View</a>
+              <a href="#" class="btn btn-warning btn-block">Edit</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-lg-4">
+          <h1 class="text-center">All patients</h1>
+          <div class="card text-center">
+            <div class="card-header">
+              Patient Ward
+            </div>
+            <div class="card-body">
+              <img class="card-img-top"src="https://boygeniusreport.files.wordpress.com/2016/11/puppy-dog.jpg?quality=98&strip=all&w=782" alt="">
+              <h5 class="card-title">Patient name</h5>
+              <p class="card-text">Diagnosis</p>
+            </div>
+            <div class="card-footer text-muted">
+              <small>Admitted date</small>
+              <a href="#" class="btn btn-danger btn-block">View</a>
+              <a href="#" class="btn btn-warning btn-block">Edit</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-lg-4">
+          <h1 class="text-center">All patients</h1>
+          <div class="card text-center">
+            <div class="card-header">
+              Patient Ward
+            </div>
+            <div class="card-body">
+              <img class="card-img-top"src="https://boygeniusreport.files.wordpress.com/2016/11/puppy-dog.jpg?quality=98&strip=all&w=782" alt="">
+              <h5 class="card-title">Patient name</h5>
+              <p class="card-text">Diagnosis</p>
+            </div>
+            <div class="card-footer text-muted">
+              <small>Admitted date</small>
+              <a href="#" class="btn btn-danger btn-block">View</a>
+              <a href="#" class="btn btn-warning btn-block">Edit</a>
+            </div>
+          </div>
+        </div>
+
+
+    </div>
   </div>
-  <div class="card-body">
-    <img class="card-img-top"src="https://boygeniusreport.files.wordpress.com/2016/11/puppy-dog.jpg?quality=98&strip=all&w=782" alt="">
-    <h5 class="card-title">Patient name</h5>
-    <p class="card-text">Diagnosis</p>
-  </div>
-  <div class="card-footer text-muted">
-    <small>Admitted date</small>
-    <a href="#" class="btn btn-danger btn-block">View</a>
-    <a href="#" class="btn btn-warning btn-block">Edit</a>
-  </div>
-</div>
-</div>
-  </body>
+
+  <script type="text/javascript" src="text.js">
+  </script>
+</body>
 </html>

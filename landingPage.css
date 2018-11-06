@@ -1,20 +1,20 @@
 body {
-    display: block;
-    margin: 8px;
-    text-align: center;
+  display: block;
+  margin: 8px;
+  text-align: center;
 }
 .loginbutton {
   /* point means its a class */
   background-color: #4CAF50; /* Green */
   /* you can google colour code system and get any shade; or just type in the name */
-   border: solid;
-   color: black;
-   padding: 15px 32px 10px 12px ;
-        /* top right bottom left ; can be checked on web page at insert thingy screen */
+  border: solid;
+  color: black;
+  padding: 15px 32px 10px 12px ;
+  /* top right bottom left ; can be checked on web page at insert thingy screen */
 
-/* .nameofclass */
+  /* .nameofclass */
   /* styling */
-/*make a class when you want to style something a certain way and then use it multiple times to keep the same style  */
+  /*make a class when you want to style something a certain way and then use it multiple times to keep the same style  */
 }
 #header {
   color: blue;
